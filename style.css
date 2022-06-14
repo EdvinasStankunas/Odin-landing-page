@@ -34,3 +34,41 @@ a {
   color: #e5e7eb;
   font-size: 18px;
 }
+
+.page-intro {
+  display: flex;
+  gap: 20px;
+  padding: 12%;
+  background-color: #1f2937;
+  align-items: center;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.intro-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.page-intro img {
+  width: auto;
+  height: 300px;
+}
+
+.intro-button {
+  width: 100px;
+  height: 30px;
+  color: #e5e7eb;
+  font-weight: bolder;
+  background-color: #3882f6;
+  border-radius: 5px;
+  border-style: hidden;
+}
