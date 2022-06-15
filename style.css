@@ -37,7 +37,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #e5e7eb;
+  color: var(--sec-white);
   font-size: 18px;
 }
 
@@ -45,7 +45,7 @@ a {
   display: flex;
   gap: 20px;
   padding: 12%;
-  background-color: #1f2937;
+  background-color: var(--blue);
   align-items: center;
 }
 
@@ -56,7 +56,7 @@ a {
 
 .intro-text h1 {
   font-size: 48px;
-  color: #f9faf8;
+  color: var(--white);
 }
 
 .intro-text p {
@@ -74,7 +74,7 @@ a {
   height: 50px;
   color: var(--sec-white);
   font-weight: bolder;
-  background-color: #3882f6;
+  background-color: var(--light-blue);
   border-radius: 5px;
   border-style: hidden;
 }
@@ -166,7 +166,7 @@ h3 {
 }
 
 footer {
-  background-color: #1f2937;
+  background-color: var(--blue);
   color: var(--sec-white);
   text-align: center;
   padding: 20px 0 20px 0;
