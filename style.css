@@ -135,6 +135,7 @@ figcaption {
   align-items: center;
   border-radius: 15px;
   padding: 2% 10% 2% 10%;
+  gap: 15px;
 }
 
 .call-text {
